@@ -7,6 +7,7 @@ import static org.mockito.Mockito.when;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Map;
 
 import org.assignments.webcrawler.AbstractTest;
@@ -55,14 +56,14 @@ public class CrawlerServiceImplTest extends AbstractTest {
         
         when(Boolean.valueOf(this.sitemapBuilder.writeSimpleOutputToFile(
                         any(FileOutputStream.class), 
-                        any(Page.class))))
+                        any(Page.class), 
+                        any(String.class))))
         .thenReturn(Boolean.TRUE);
         when(Boolean.valueOf(this.sitemapBuilder.buildSitemap(any(Map.class))))
         .thenReturn(Boolean.TRUE);
         when(this.document.select(any(String.class))).thenReturn(new Elements());
         when(this.document.select(eq(LinkType.HYPER.toString()))).thenReturn(this.hyperlinkElements);
         when(this.document.select(eq(LinkType.SCRIPT.toString()))).thenReturn(this.resourceElements);
-        //when(this.conn.execute()).thenThrow(new IOException());
         when(this.response.parse()).thenReturn(this.document);
         when(this.conn.execute()).thenReturn(this.response);
         
@@ -88,6 +89,17 @@ public class CrawlerServiceImplTest extends AbstractTest {
      */
     @Test
     public final void testBuildSiteMap() throws FileNotFoundException, WebpageGrabException {
+        assertTrue(this.service.buildSiteMap());
+    }
+    
+    /**
+     * @throws WebpageGrabException - Cannot retrieve the Web page
+     * @throws IOException - Should not reach the test.
+     */
+    @Test
+    public final void testBuildSiteMapIOExceptionStillCompletes() 
+                    throws WebpageGrabException, IOException {
+        when(this.conn.execute()).thenThrow(new IOException());
         assertTrue(this.service.buildSiteMap());
     }
 

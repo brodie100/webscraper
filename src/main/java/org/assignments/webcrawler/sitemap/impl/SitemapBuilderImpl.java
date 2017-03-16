@@ -57,30 +57,38 @@ public class SitemapBuilderImpl implements SitemapBuilder {
                         .build();
         
         pageMap.forEach((key, page) -> processPage(generator, page));
-        generator.write();
-        generator.writeSitemapsWithIndex();
+        if (!pageMap.isEmpty() 
+                        && pageMap.entrySet().iterator().hasNext() 
+                        && pageMap.entrySet().iterator().next()
+                        .getValue().getInternalLinks().isEmpty()) {
+            generator.write();
+            generator.writeSitemapsWithIndex();
+        }
         return true;
     }
     
-    private static void processPage(WebSitemapGenerator generator, Page page) {
+    private void processPage(WebSitemapGenerator generator, Page page) {
         buildFileWithPriorities(generator, page.getInternalLinks(), 0.8);
         buildFileWithPriorities(generator, page.getResourceLinks(), 0.3);
-        buildFileWithPriorities(generator, page.getExternalLinks(), 0.1);
+        //buildFileWithPriorities(generator, page.getExternalLinks(), 0.1);
         
     }
     
-    private static void buildFileWithPriorities(WebSitemapGenerator generator, 
+    private void buildFileWithPriorities(WebSitemapGenerator generator, 
                     Set<String> urls, 
                     double priority) {
         
         urls.forEach(linkUrl -> {
             try {
-                WebSitemapUrl websiteMapUrl = 
-                            new WebSitemapUrl
-                            .Options(linkUrl)
-                            .priority(Double.valueOf(priority))
-                            .build();
-                generator.addUrl(websiteMapUrl);
+                if (linkUrl.contains(this.host)) {
+                    WebSitemapUrl websiteMapUrl = 
+                                new WebSitemapUrl
+                                .Options(linkUrl)
+                                .priority(Double.valueOf(priority))
+                                .build();
+                    
+                        generator.addUrl(websiteMapUrl);
+                }
             } catch (MalformedURLException e) {
                 //Swallow to continue mapping the rest? (Shouldn't happen this deep down.)
                 LOG.error(URL_ERROR, e);
@@ -90,11 +98,13 @@ public class SitemapBuilderImpl implements SitemapBuilder {
     }
     
     @Override
-    public boolean writeSimpleOutputToFile(FileOutputStream output, Page page) {
-        page.getInternalLinks().stream().forEach(urlString -> writeToOutput(output, urlString, 0));
-        page.getResourceLinks().stream().forEach(urlString -> writeToOutput(output, urlString, 1));
-        page.getExternalLinks().stream().forEach(urlString -> writeToOutput(output, urlString, 2));
+    public boolean writeSimpleOutputToFile(FileOutputStream output, Page page, String baseURL) {
         try {
+            output.write(baseURL.getBytes());
+            output.write(NEW_LINE);
+            page.getInternalLinks().stream().forEach(urlString -> writeToOutput(output, urlString, 0));
+            page.getResourceLinks().stream().forEach(urlString -> writeToOutput(output, urlString, 1));
+            page.getExternalLinks().stream().forEach(urlString -> writeToOutput(output, urlString, 2));
             output.write(NEW_LINE);
             output.write(NEW_LINE);
         } catch (IOException e) {

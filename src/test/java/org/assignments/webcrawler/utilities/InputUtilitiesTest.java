@@ -27,7 +27,7 @@ public class InputUtilitiesTest {
     
     @Test
     public final void testValidateInputMultipleArgs() {
-        assertTrue(InputUtilities.validateInput("www.google.co.uk asfdsafadsjhf"));
+        assertFalse(InputUtilities.validateInput("www.google.co.uk asfdsafadsjhf"));
     }
     
     

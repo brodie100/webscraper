@@ -3,6 +3,10 @@
  */
 package org.assignments.webcrawler.sitemap.impl;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -52,6 +56,27 @@ public class SitemapBuilderImplTest extends AbstractTest {
         Map<String, Page> pages = new HashMap<>();
         pages.put(MY_DOMAIN, this.page);
         this.builder.buildSitemap(pages);
+        // TODO: Verify the file output
+    }
+    
+    
+    @Test
+    public final void testSuccessfulWriteSimpleOutputToFile() 
+                    throws SitemapIndexBuilderException, FileNotFoundException, IOException {
+        
+        try (FileOutputStream output = new FileOutputStream(
+                        new File("src/test/resources/testSite.out"), 
+                        false)) {
+        
+            this.page = new Page(buildLinks(MY_DOMAIN, 10), 
+                            Collections.emptySet(),
+                            buildResourceLinks(MY_DOMAIN, 7));
+            Map<String, Page> pages = new HashMap<>();
+            pages.put(MY_DOMAIN, this.page);
+            pages.forEach((urlString, pageToProcess) -> {
+                this.builder.writeSimpleOutputToFile(output, pageToProcess, urlString);
+            });
+        }
         // TODO: Verify the file output
     }
 

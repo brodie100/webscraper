@@ -27,9 +27,10 @@ public interface SitemapBuilder {
      * JSoup did not allow external links in an official sitemap.xml document
      * @param output - The output stream used to write the contents to.
      * @param page - the page to add to the file.
+     * @param baseUrl - The current URL that is being parsed and documented
      * @return boolean - success 
      */
-    boolean writeSimpleOutputToFile(FileOutputStream output, Page page);
+    boolean writeSimpleOutputToFile(FileOutputStream output, Page page, String baseUrl);
     
     /**
      * @return URL - URL object representing the base URI

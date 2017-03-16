@@ -41,32 +41,44 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/9</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/8</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/5</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/4</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/7</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/6</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/1</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/0</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/3</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/2</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.mysite.com/9</loc>
@@ -109,32 +121,44 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/9</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/8</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/5</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/4</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/7</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/6</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/1</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/0</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/3</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/2</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.mysite.com/9</loc>
@@ -177,32 +201,44 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/9</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/8</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/5</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/4</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/7</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/6</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/1</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/0</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/3</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/2</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.mysite.com/9</loc>
@@ -245,32 +281,44 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/9</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/8</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/5</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/4</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/7</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/6</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
+    <loc>http://www.mysite.com/1</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/0</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/3</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.mysite.com/2</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.mysite.com/9</loc>
@@ -313,34 +361,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>http://www.mysite.com/9</loc>
     <priority>0.8</priority>
   </url>
@@ -381,34 +401,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>http://www.mysite.com/9</loc>
     <priority>0.8</priority>
   </url>
@@ -447,305 +439,5 @@
   <url>
     <loc>http://www.mysite.com/2</loc>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/9</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/8</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/7</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/9</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/8</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/7</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/9</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/8</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/7</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/9</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/8</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/7</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/0.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/2.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/6.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/4.css</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/1.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/3.png</loc>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>http://www.mysite.com/5.png</loc>
-    <priority>0.1</priority>
   </url>
 </urlset>

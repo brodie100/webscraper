@@ -55,23 +55,24 @@ public final class CrawlerServiceImpl implements CrawlerService {
         try (FileOutputStream output = new FileOutputStream(
                             new File("src/test/resources/testSite.out"), 
                             false)) {
+            
             nextUrlOptional = Optional.of(this.url.toString());
             while(nextUrlOptional.isPresent()) {
                 Page parsedPage = processLink(nextUrlOptional.get());
-                this.sitemapBuilder.writeSimpleOutputToFile(output, parsedPage);
+                this.sitemapBuilder
+                .writeSimpleOutputToFile(output, parsedPage, nextUrlOptional.get());
                 nextUrlOptional = nextUrl();
                 output.flush();
             }
             output.close();
-            //this.sitemapBuilder.buildSitemap(this.visitedLinkMap);
+           this.sitemapBuilder.buildSitemap(this.visitedLinkMap);
         } catch (IOException e) {
             LOG.error("Problem Retrieving Web Page. ", e);
             throw new WebpageGrabException(nextUrlOptional.orElse("N/A"), e);
-        } 
-//        catch (SitemapIndexBuilderException e) {
-//            LOG.error("Problem building the sitemap. ", e);
-//            e.printStackTrace();
-//        }
+        } catch (SitemapIndexBuilderException e) {
+            LOG.error("Problem building the sitemap. ", e);
+            e.printStackTrace();
+        }
         
         return true;
     }
